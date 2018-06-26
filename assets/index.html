@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="lib/plugins/leaflet.marker.highlight.css" />
+    <link rel="stylesheet" type="text/css" href="css/map.css" />
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/plugins/leaflet.ChineseTmsProviders.js"></script>
+    <script src="lib/plugins/leaflet.marker.highlight.js"></script>
+    <script src="lib/plugins/leaflet-tilelayer-wmts-src.js"></script>
+    <title>地图</title>
+</head>
+<body>
+    <div id="map"></div>
+    <!--<button onclick="switchBaselayer('MapBox','道路图')">1111</button>-->
+    <script src="js/createMap.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/interface.js"></script>
+
+    <script>
+      switchBaseLayer('天地图','道路图');
+    </script>
+    
+</body>
+</html>
